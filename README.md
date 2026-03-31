@@ -5,12 +5,12 @@ This is a smart, interactive physiotherapy system designed for at-home use. We b
 
 Instead of doing boring exercises, a patient wears our hardware. The sensors track their body movements and turn their physiotherapy into a computer game. If they do the exercise wrong, the hardware vibrates (haptic feedback) to correct their posture in real-time.
 
-## 🛠️ My Role: Project Lead & Hardware Engineer
-I led this project and personally built the entire hardware and embedded systems layer:
+## 🛠️ My Role: Hardware Engineer
+I led the hardware part and  built the entire hardware and embedded systems layer:
 
-* **Built the Hardware:** I wired and integrated the microcontrollers (ESP32 and the C-DAC VEGA ARIES v2.0) with motion sensors (IMU), bend sensors for the fingers (Flex), and muscle sensors (EMG).
-* **Wrote the Firmware:** I wrote the C/C++ code that reads the patient's body movements and controls the vibration motors.
-* **Connected Hardware to Software:** I built the communication pipeline that successfully sends the live physical data from the hardware to the computer game.
+* **Built the Hardware:** Wired and integrated the microcontrollers (ESP32 and the C-DAC VEGA ARIES v2.0) with motion sensors (IMU), bend sensors for the fingers (Flex), and muscle sensors (EMG).
+* **Wrote the Firmware:**  wrote the C/C++ code that reads the patient's body movements and controls the vibration motors.
+* **Connected Hardware to Software:** Built the communication pipeline that successfully sends the live physical data from the hardware to the computer game.
 
 ## 📂 What is inside these folders?
 * **`/esp32_firmware` & `/vega_aries_firmware`**: The C/C++ code running on the physical hardware boards.
